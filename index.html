@@ -44,14 +44,33 @@
             background-color: white;
             border-radius: 8px;
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            border-top: 5px solid;
+        }
+        #stem {
+            border-color: #27ae60;
+        }
+        #social-studies {
+            border-color: #f39c12;
+        }
+        #art {
+            border-color: #8e44ad;
         }
         h2 {
-            border-bottom: 2px solid #333;
+            border-bottom: 2px solid;
             padding-bottom: 0.5rem;
             margin-bottom: 1.5rem;
             font-size: 2rem;
             font-family: 'Merriweather', serif;
             font-weight: 700;
+        }
+        #stem h2 {
+            color: #27ae60;
+        }
+        #social-studies h2 {
+            color: #f39c12;
+        }
+        #art h2 {
+            color: #8e44ad;
         }
         .paper {
             margin-bottom: 2rem;
@@ -81,12 +100,24 @@
             display: inline-block;
             margin-top: 0.5rem;
             text-decoration: none;
-            color: #0066cc;
             font-weight: 600;
             transition: color 0.3s ease;
+            padding: 5px 10px;
+            border-radius: 4px;
+        }
+        #stem .pdf-link {
+            color: #27ae60;
+            background-color: #e8f5e9;
+        }
+        #social-studies .pdf-link {
+            color: #f39c12;
+            background-color: #fff5e6;
+        }
+        #art .pdf-link {
+            color: #8e44ad;
+            background-color: #f3e5f5;
         }
         .pdf-link:hover {
-            color: #004080;
             text-decoration: underline;
         }
         footer {
