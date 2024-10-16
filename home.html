@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Brophy Research Journal</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Open+Sans:wght@300;400;600&display=swap');
+        
+        body {
+            font-family: 'Open Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            line-height: 1.6;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+        }
+        h1 {
+            margin: 0;
+            font-size: 3rem;
+            font-family: 'Merriweather', serif;
+            font-weight: 700;
+        }
+        header p {
+            font-size: 1.2rem;
+            margin-top: 0.5rem;
+            font-weight: 300;
+        }
+        main {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        section {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+            font-size: 2rem;
+            font-family: 'Merriweather', serif;
+            font-weight: 700;
+        }
+        .paper {
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        .paper:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+        .paper-title {
+            font-weight: 600;
+            font-size: 1.4rem;
+            margin: 0 0 0.2rem 0;
+            font-family: 'Merriweather', serif;
+        }
+        .paper-author {
+            font-style: italic;
+            color: #666;
+            margin: 0 0 0.5rem 0;
+        }
+        .paper-abstract {
+            margin: 0.5rem 0;
+        }
+        .pdf-link {
+            display: inline-block;
+            margin-top: 0.5rem;
+            text-decoration: none;
+            color: #0066cc;
+            font-weight: 600;
+            transition: color 0.3s ease;
+        }
+        .pdf-link:hover {
+            color: #004080;
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            padding: 1.5rem 0;
+            background-color: #333;
+            color: white;
+            margin-top: 2rem;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Brophy Research Journal</h1>
+    <p>Dedicated to Research in STEM, Social Studies, and Art</p>
+</header>
+
+<main>
+    <!-- STEM Section -->
+    <section id="stem">
+        <h2>STEM Research</h2>
+        <div class="paper">
+            <p class="paper-title">[Research Paper Title 1 - STEM]</p>
+            <p class="paper-author">Author Name 1</p>
+            <p class="paper-abstract">[Abstract or brief description of the paper]</p>
+            <a href="link_to_pdf_1.pdf" class="pdf-link" target="_blank">Download Full PDF</a>
+        </div>
+        <div class="paper">
+            <p class="paper-title">[Research Paper Title 2 - STEM]</p>
+            <p class="paper-author">Author Name 2</p>
+            <p class="paper-abstract">[Abstract or brief description of the paper]</p>
+            <a href="link_to_pdf_2.pdf" class="pdf-link" target="_blank">Download Full PDF</a>
+        </div>
+    </section>
+
+    <!-- Social Studies Section -->
+    <section id="social-studies">
+        <h2>Social Studies Research</h2>
+        <div class="paper">
+            <p class="paper-title">The Influence of Infinite Scroll Video Content on Cognitive Time</p>
+            <p class="paper-author">Dean Ketcham '25</p>
+            <p class="paper-abstract">This research demonstrates that consumers underestimate the amount of time that has
+                elapsed while scrolling on social media vs. watching a TV show, and is the first to
+                demonstrate a causal relationship between the infinite scrolling on social media and
+                cognitive time. Importantly, despite the fact that consumers do indeed lose track of
+                time while scrolling on social media, it shows that consumers perceive time to have
+                passed at a normal rate, meaning that they are unaware of any changes in cognitive time
+                (an individual's subjective perception of time).</p>
+            <a href="https://drive.google.com/file/d/1AhpbppThHmVOnvKWoIm7FilEBv9EuO6h/view?usp=sharing" class="pdf-link" target="_blank">Download Full PDF</a>
+        </div>
+        <div class="paper">
+            <p class="paper-title">[Research Paper Title 2 - Social Studies]</p>
+            <p class="paper-author">Author Name 2</p>
+            <p class="paper-abstract">[Abstract or brief description of the paper]</p>
+            <a href="link_to_pdf_4.pdf" class="pdf-link" target="_blank">Download Full PDF</a>
+        </div>
+    </section>
+
+    <!-- Art Section -->
+    <section id="art">
+        <h2>Art Research</h2>
+        <div class="paper">
+            <p class="paper-title">[Research Paper Title 1 - Art]</p>
+            <p class="paper-author">Author Name 1</p>
+            <p class="paper-abstract">[Abstract or brief description of the paper]</p>
+            <a href="link_to_pdf_5.pdf" class="pdf-link" target="_blank">Download Full PDF</a>
+        </div>
+        <div class="paper">
+            <p class="paper-title">[Research Paper Title 2 - Art]</p>
+            <p class="paper-author">Author Name 2</p>
+            <p class="paper-abstract">[Abstract or brief description of the paper]</p>
+            <a href="link_to_pdf_6.pdf" class="pdf-link" target="_blank">Download Full PDF</a>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 Brophy Research Journal. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
